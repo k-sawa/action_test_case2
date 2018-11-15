@@ -1,5 +1,5 @@
 # action_test_case2
-Reproduction code: [SimpleActionClient sometimes not subscribe result topic](https://github.com/ros/actionlib/issues/119, "ros/actionlib/issues/119")
+Reproduction code: [SimpleActionClient sometimes not subscribe result topic](https://github.com/ros/actionlib/issues/119  "ros/actionlib/issues/119")
 
 This test case tries action client launch and exit only loop, as keep launching action server.
 I tested this and the issue was reproduced twice in 8,609 tries.
