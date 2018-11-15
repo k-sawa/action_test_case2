@@ -1,0 +1,4 @@
+<launch>
+  <node name="server" pkg="action_test" type="server" required="true" output="screen" />
+  <node name="loop_test" pkg="action_test" type="loop_test.sh" required="true" output="screen" />
+</launch>
